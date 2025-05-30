@@ -1,75 +1,4 @@
-/*
-Template Name: Huntar
-Template URL: http://html.vecurosoft.com/huntar
-Description: Huntar - Hunting and Hunting Services HTML Template
-Author: Vecuro
-Author URI: https://themeforest.net/user/vecuro
-Version: 1.0.0
-*/
-/*=================================
-    CSS Index End
-==================================*/
-/*
-01. Variable
-02. Mixin
-03. Function
-04. Typography
-05. Bootstrap Overwrite
-    5.1. Container
-    5.2. Grid
-    5.3. Form
-06. Vendor Custom Style 
-    6.1. Slick Slider
-    6.2. VS Mobile Menu
-    6.3. Flaticon
-07. Theme Default
-    7.1. Preloader
-    7.2. Theme Buttons
-    7.3. Section Title
-    7.4. Theme Utility
-08. Template Style
-    8.1. Header
-    8.2. Footer
-    8.3. Breadcrumb
-    8.4. Hero
-    8.5. Feature
-    8.6. About
-    8.7. Video
-    8.8. Service
-    8.9. Banner
-    8.10. Team
-    8.11. Testimonial
-    8.12. Blog
-    8.13. Contact
-    8.14. Work-process
-    8.15. Counter
-    8.16. Gallery
-    8.17. Woocommerce
-    8.18. Widget-sidemenu
-    8.19. Price
-    8.20. Error
-    8.21. Widget-search
-    8.22. Widget-categories
-    8.23. Widget-post
-    8.24. Shopping Cart
-    8.25. Checkout
-    8.26. Wishlist
-09. Theme Global
-    9.1. Font
-    9.2. Background
-    9.3. Text Color
-    9.4. Border Radius
-    9.5. Overlay
-10. Theme Animation
-11. Extend
-12. Spacing
-*/
-/*=================================
-    CSS Index End
-==================================*/
-/*=================================
-    01. Variable
-==================================*/
+
 :root {
   --theme-color: #9F974F;
   --title-color: #686242;
@@ -14229,4 +14158,11 @@ h6.title-color2 a:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/* hero section */
+.hero-img-1 {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 20%; /* Adjust to fit your layout */
+    display: block;
+}
