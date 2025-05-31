@@ -3049,7 +3049,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   font-weight: 300;
   display: block;
   position: relative;
-  padding: 30px 15px;
+  padding: 3w0px 15px;
   background-color: transparent;
   transition: all ease 0.4s;
   /* Medium devices */
@@ -14247,7 +14247,7 @@ gap: 20px;
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 40px;
+  bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -14283,12 +14283,24 @@ gap: 20px;
   margin-bottom: 5px;
 }
 
-.nav-icon.active {
-  background: var(--title-color);
-  color: white;
+.nav-icon.active,
+.nav-icon.active:hover,
+.nav-icon.active:focus {
+  background: var(--title-color) !important;
+  color: white !important;
   font-weight: bold;
+}
+
+.nav-icon:hover:not(.active),
+.nav-icon:focus:not(.active) {
+  background: var(--theme-color);
+  color: white;
 }
 
 html {
   scroll-behavior: smooth!important;
+}
+
+.copyright {
+  padding: 5px 0 !important;
 }
