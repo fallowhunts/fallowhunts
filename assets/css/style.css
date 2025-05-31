@@ -14240,3 +14240,55 @@ gap: 20px;
 .contact-social {
   font-size: 48px;
 }
+
+
+
+.icon-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  z-index: 9999;
+  background: transparent;
+}
+
+.icon-nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.nav-icon {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: color 0.3s;
+  padding: 10px;
+  background-color: var(--theme-color);
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.nav-icon i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.nav-icon.active {
+  background: var(--title-color);
+  color: white;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth!important;
+}
