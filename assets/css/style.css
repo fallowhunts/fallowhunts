@@ -14216,3 +14216,12 @@ gap: 20px;
   gap: 0;
   }
 }
+
+.form-messages {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.text-success {
+  color: var(--title-color)!important;
+}
