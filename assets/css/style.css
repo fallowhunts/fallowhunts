@@ -14173,3 +14173,33 @@ h6.title-color2 a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.hero2-shape-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; /* Make sure it's above the background but behind content */
+}
+
+.flipped-shape {
+  transform: scaleY(-1); /* Flip vertically */
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.company-logo {
+  width: 32px;
+}
+
+.logo-name {
+  margin-bottom: 0;
+  font-size: 24px;
+}
