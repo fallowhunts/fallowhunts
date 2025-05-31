@@ -14229,3 +14229,14 @@ gap: 20px;
 .info-height {
   height: 300px;
 }
+
+.contact-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-social {
+  font-size: 48px;
+}
