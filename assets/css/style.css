@@ -14304,3 +14304,27 @@ html {
 .copyright {
   padding: 5px 0 !important;
 }
+  .package-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  /* Icons styling */
+  .icon-yes {
+    color: var(--theme-color); /* green check */
+    font-weight: 700;
+    margin-right: 8px;
+  }
+
+  .icon-no {
+    color: var(--theme-color); /* red cross */
+    font-weight: 700;
+    margin-right: 8px;
+  }
+
+  /* Left align the text inside package cards */
+  .package-card ul {
+    text-align: left;
+  }
