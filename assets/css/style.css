@@ -14189,19 +14189,26 @@ h6.title-color2 a:hover {
 
 .logo-container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  gap: 5px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
 }
 
 .company-logo {
-  width: 32px;
+  width: 50px;
+  height: auto;
 }
 
 .logo-name {
-  margin-bottom: 0;
   font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .review-flex {
