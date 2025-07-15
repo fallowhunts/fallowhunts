@@ -14353,6 +14353,8 @@ html {
 .modal-content {
   position: relative;
   margin: 5% auto;
+  top: 40%;
+  transform: translateY(-50%);
   width: 90%;
   max-width: 800px;
   text-align: center;
