@@ -115,7 +115,7 @@ Logo Area
 <header class="vs-logo-area py-20 text-center" id="home">
     <div class="container logo-container">
         <a href="index.html">
-            <img src="assets/img/logo.png" alt="Company Logo" class="company-logo">
+            <img src="assets/img/logo.png" alt="Company Logo" class="company-logo" style="width: 60px">
         </a>
         <h1 class="logo-name">FALLOW HUNTS</h1>
     </div>
@@ -319,7 +319,7 @@ About Area
           <h3 class="mb-3">Explorer Stalk</h3>
           <h4 class="mb-4">€400 <small>per hunter</small></h4>
           <ul class="list-unstyled mb-4">
-            <li><span class="icon-yes">✓</span> 1 Day Guided Hunt (2 hrs AM & 2 hrs PM)</li>
+            <li><span class="icon-yes">✓</span> 1 Day Guided Hunt (2 hrs morning & 2 hrs evening)</li>
             <li><span class="icon-yes">✓</span> One-to-One or Max 1 Guide to 2 Hunters</li>
             <li><span class="icon-yes">✓</span> Transport from Pickup Point to Hunting Grounds</li>
             <li><span class="icon-yes">✓</span> Lunch & Light Refreshments</li>
@@ -338,7 +338,7 @@ About Area
           <h3 class="mb-3">Hunter’s Retreat</h3>
           <h4 class="mb-4">€1,980 <small>per hunter</small></h4>
           <ul class="list-unstyled mb-4">
-            <li><span class="icon-yes">✓</span> 3 Days Guided Hunting (2 hrs AM & 2 hrs PM)</li>
+            <li><span class="icon-yes">✓</span> 3 Days Guided Hunting (2 hrs morning & 2 hrs evening)</li>
             <li><span class="icon-yes">✓</span> 4 Nights Accommodation</li>
             <li><span class="icon-yes">✓</span> Breakfast & Evening Meals Included</li>
             <li><span class="icon-yes">✓</span> Fallow, Red Deer or Mountain Goat Stalking</li>
@@ -357,7 +357,7 @@ About Area
           <h3 class="mb-3">Ultimate Expedition</h3>
           <h4 class="mb-4">€2,995 <small>per hunter</small></h4>
           <ul class="list-unstyled mb-4">
-            <li><span class="icon-yes">✓</span> 5 Days Premium Guided Hunting (2 hrs AM & 2 hrs PM)</li>
+            <li><span class="icon-yes">✓</span> 5 Days Premium Guided Hunting (2 hrs morning & 2 hrs evening)</li>
             <li><span class="icon-yes">✓</span> 6 Nights Accommodation</li>
             <li><span class="icon-yes">✓</span> Breakfast & Evening Meals Included</li>
             <li><span class="icon-yes">✓</span> Fallow, Red Deer & Mountain Goat Stalking</li>
@@ -377,7 +377,7 @@ About Area
     </div>
     <div class="container mt-4">
   <div class="text-center" role="alert">
-    <strong>Note:</strong> An accommodation fee of <strong>20%</strong> applies. Prices may vary depending on the time of year.
+    <strong>Note:</strong> A non-refundable <strong>20% accommodation fee</strong> is required upfront to confirm your booking. Final prices may vary depending on the time of year.
   </div>
 </div>
   </div>
@@ -392,17 +392,33 @@ About Area
     <p class="text-center mb-4">The following fees apply for trophy or extra animals harvested during your hunt:</p>
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <ul class="list-group list-group-flush">
+
+        <!-- Trophy Section -->
+        <h5 class="border-bottom pb-2 mb-3 text-center text-uppercase">Trophy Animals</h5>
+        <ul class="list-group list-group-flush mb-4">
           <li class="list-group-item d-flex justify-content-between"><span>Red Stag (Trophy)</span> <strong>€700</strong></li>
           <li class="list-group-item d-flex justify-content-between"><span>Fallow Buck (Trophy)</span> <strong>€500</strong></li>
           <li class="list-group-item d-flex justify-content-between"><span>Mountain Goat (Trophy)</span> <strong>€500</strong></li>
+        </ul>
+
+        <!-- Standard Section -->
+        <h5 class="border-bottom pb-2 mb-3 text-center text-uppercase">Standard Harvests</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between"><span>Red Stag</span> <strong>€300</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Red Hind</span> <strong>€200</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Red Calf</span> <strong>€100</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Fallow Buck</span> <strong>€200</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Fallow Doe</span> <strong>€100</strong></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Fallow Calf</span> <strong>€50</strong></li>
           <li class="list-group-item d-flex justify-content-between"><span>Mountain Goat</span> <strong>€200</strong></li>
         </ul>
+
         <p class="mt-4 text-center"><strong>Note:</strong> Any wounded animal is considered a harvested animal and will be charged accordingly.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <!--==============================
@@ -510,78 +526,46 @@ CTA Area
 </div>
 
 <!--==============================
-    Testimonail Area
-    ==============================-->
-    <div class="vs-testimonial-wrapper testimonial_fix1 dot-nav-style space-top space-negative-bottom bg-grey" id="review">
-        <div class="container">
-            <div class="row align-items-center gx-60 text-center text-lg-start">
-                <div class="col-lg-6 col-md-12">
-                    <div class="vs-carousel" id="slide-2" data-asnavfor="#slide-1" data-fade="true" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-slide-show="1" data-lg-slide-show="1" data-md-slide-show="1" data-sm-slide-show="1">
-                        <div>
-                            <div class="testimonial-img-box  mb-30">
-                                <img src="assets/img/testimonial/image1.png" alt="Testimonial Img" class="w-100">
+Testimonial Area
+==============================-->
+<div class="vs-testimonial-wrapper testimonial_fix1 dot-nav-style space-top space-negative-bottom bg-grey" id="review">
+    <div class="container">
+        <div class="row align-items-center gx-60 text-center text-lg-start">
+            <div>
+                <div class="testimonial-content-wrapper position-relative mb-30">
+                    <h4 class="sec-title1 mb-2">Customer Reviews</h4>
+                    <img src="assets/img/shape/about-line-1.png" alt="Line Shape">
+                    <h2 class="sec-title2 mb-40 pr-50">What Our Guests Say About Fallow Hunts</h2>
+                    <img class="quote-icon" src="assets/img/icons/quote-1.png" alt="Quote Icon">
+                    <div class="review-flex">
+                        <div class="testimonial-content-box">
+                            <div class="rating fs-md">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="sec-paragraph mb-2 mb-md-4">“An amazing experience! Michael’s knowledge and passion for deer management really shows. A must-do for anyone visiting Ireland and interested in ethical hunting.”</p>
+                            <div class="author-info">
+                                <h4 class="mb-0">James (USA)</h4>
+                                <p>Guest</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="testimonial-img-box  mb-30">
-                                <img src="assets/img/testimonial/image2.png" alt="Testimonial Img" class="w-100">
+                        <div class="testimonial-content-box">
+                            <div class="rating fs-md">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="sec-paragraph mb-2 mb-md-4">“My first hunt in Ireland and I couldn’t have asked for a better guide. The scenery was incredible and everything was handled safely and professionally.”</p>
+                            <div class="author-info">
+                                <h4 class="mb-0">David (Canada)</h4>
+                                <p>Guest</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="testimonial-img-box  mb-30">
-                                <img src="assets/img/testimonial/image3.png" alt="Testimonial Img" class="w-100">
+                        <div class="testimonial-content-box">
+                            <div class="rating fs-md">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="testimonial-content-wrapper position-relative mb-30">
-                        <h4 class="sec-title1 mb-2">Customers Review</h4>
-                        <img src="assets/img/shape/about-line-1.png" alt="Line Shape">
-                        <h2 class="sec-title2 mb-40 pr-50">What People Say’s About Us</h2>
-                        <img class="quote-icon" src="assets/img/icons/quote-1.png" alt="Quote Icon">
-                        <div class="vs-carousel" id="slide-1" data-fade="true" data-asnavfor="#slide-2" data-slide-show="1" data-lg-slide-show="1" data-md-slide-show="1" data-sm-slide-show="1">
-                            <div class="testimonial-content-box">
-                                <div class="rating fs-md">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="sec-paragraph mb-2 mb-md-4">“An absolutely unforgettable experience. Michael was incredibly knowledgeable, and the landscapes were stunning. I came home with great memories and even better stories. Highly recommend!”</p>
-                                <div class="author-info">
-                                    <h4 class="mb-0">John</h4>
-                                    <p>Customer</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-content-box">
-                                <div class="rating fs-md">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="sec-paragraph mb-2 mb-md-4">“From start to finish, everything was professionally organized. The accommodation was cozy, and the hunt itself was both exciting and respectful of nature. You can tell they really care about ethical hunting.”</p>
-                                <div class="author-info">
-                                    <h4 class="mb-0">Mark</h4>
-                                    <p>Customer</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-content-box">
-                                <div class="rating fs-md">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="sec-paragraph mb-2 mb-md-4">“Truly one of the best hunts I’ve been on. The guides were professional, the terrain was challenging, and the wildlife was abundant. You can tell these guys know their land inside out.”</p>
-                                <div class="author-info">
-                                    <h4 class="mb-0">William</h4>
-                                    <p>Customer</p>
-                                </div>
+                            <p class="sec-paragraph mb-2 mb-md-4">“We came as a father-son trip and left with lifelong memories. Fallow Hunts gave us the perfect mix of challenge, learning, and fun.”</p>
+                            <div class="author-info">
+                                <h4 class="mb-0">Luke & Tom (UK)</h4>
+                                <p>Guests</p>
                             </div>
                         </div>
                     </div>
@@ -589,6 +573,7 @@ CTA Area
             </div>
         </div>
     </div>
+</div>
  <!--==============================
     Breadcrumb Area
   ==============================-->
